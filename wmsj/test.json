@@ -4,15 +4,21 @@
     "data": [
     {
         "id": "1",
-        "intro": "通知内容1",
-        "title": "通知标题1",
-        "open_url": "打开地址1"
+        "intro": "打开活动页",
+        "title": "打开活动页",
+        "open_url": "babybus://business/openPushMessage?{\"type\":\"0\",\"activity\":{\"id\":\"\",\"img\":\"\",\"url\":\"\",\"code\":\"\",\"type\":\"\"}}"
     },
     {
         "id": "2",
-        "intro": "通知内容2",
-        "title": "通知标题2",
-        "open_url": "打开地址2"
+        "intro": "打开浏览器",
+        "title": "打开浏览器",
+        "open_url": "babybus://business/openPushMessage?{\"type\":\"1\",\"browser\":{\"url\":\"\"}}"
+    },
+    {
+        "id": "3",
+        "intro": "下载应用",
+        "title": "下载应用",
+        "open_url": "babybus://business/openPushMessage?{\"type\":\"2\",\"app\":{\"name\":\"\",\"key\":\"\",\"url\":\"\"}}"
     }
 ]
 }
